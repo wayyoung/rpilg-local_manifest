@@ -6,11 +6,11 @@
     <remote name="wayyoung"   fetch="git://github.com/wayyoung/" />
 
     <!-- Raspberry Pi -->
-    <project path="device/brcm/rpi4" name="android_device_brcm_rpi4" remote="wayyoung"    revision="lineage-16.0"       />
-    <project path="vendor/brcm"      name="proprietary_vendor_brcm"  remote="wayyoung" revision="lineage-16.0"/>
+    <project path="device/brcm/rpi4" name="rpilg-device_brcm_rpi4" remote="wayyoung"    revision="lineage-16.0"       />
+    <project path="vendor/brcm"      name="rpilg-proprietary_vendor_brcm"  remote="wayyoung" revision="lineage-16.0"/>
     
     <!-- kernel -->
-    <project path="kernel/brcm/rpi4"  name="android_kernel_brcm_rpi4"  remote="wayyoung" revision="lineage-16.0" />
+    <project path="kernel/brcm/rpi4"  name="rpilg-kernel_brcm_rpi4"  remote="wayyoung" revision="lineage-16.0" />
 
     <project path="prebuilts/lineage-sdk" name="android_prebuilts_lineage-sdk" remote="lineageOS" revision="lineage-16.0" />
     <!-- LineageOS additions -->
